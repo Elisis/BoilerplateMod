@@ -8,11 +8,11 @@ import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModItems {
 	
-	public static ItemBase copper_ingot = new ItemBase("copper_ingot").setCreativeTab(null);
+	public static ItemBase copper_ingot = new ItemBase("copper_ingot");
 	
 	public static ItemCornSeed corn_seed = new ItemCornSeed();
 	
-	public static ItemBase corn = new ItemBase("corn").setCreativeTab(CreativeTabs.FOOD);
+	public static ItemBase corn = new ItemBase("corn");
 	
 	public static void register(IForgeRegistry<Item> registry) {
 		

@@ -14,20 +14,14 @@ public class ItemBase extends Item {
 		this.name = name;
 		this.setUnlocalizedName(name);
 		this.setRegistryName(name);
+		
+		this.setCreativeTab(Main.creativeTab);
 	
 	}
 	
 	public void registerItemModel() {
 		
 		Main.proxy.registerItemRenderer(this, 0, name);
-		
-	}
-	
-	@Override
-	public ItemBase setCreativeTab(CreativeTabs tab) {
-		
-		super.setCreativeTab(tab);
-		return this;
 		
 	}
 

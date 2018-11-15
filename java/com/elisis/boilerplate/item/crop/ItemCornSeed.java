@@ -14,6 +14,8 @@ public class ItemCornSeed extends ItemSeeds {
 		this.setUnlocalizedName("corn_seed");
 		this.setRegistryName("corn_seed");
 		
+		this.setCreativeTab(Main.creativeTab);
+		
 	}
 	
 	public void registerItemModel() {

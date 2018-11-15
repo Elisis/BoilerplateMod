@@ -19,6 +19,8 @@ public class BlockBase extends Block {
 		this.name = name;
 		this.setUnlocalizedName(name);
 		this.setRegistryName(name);
+		
+		this.setCreativeTab(Main.creativeTab);
 	
 	}
 	
@@ -31,14 +33,6 @@ public class BlockBase extends Block {
 	public Item createItemBlock() {
 		
 		return new ItemBlock(this).setRegistryName(this.getRegistryName());
-	
-	}
-	
-	@Override
-	public BlockBase setCreativeTab(CreativeTabs tab) {
-		
-		super.setCreativeTab(tab);
-		return this;
 	
 	}
 

@@ -12,6 +12,8 @@ public class BlockCropCorn extends BlockCrops {
 		this.setUnlocalizedName("corn_crop");
 		this.setRegistryName("corn_crop");
 		
+		
+		
 	}
 	
 	@Override

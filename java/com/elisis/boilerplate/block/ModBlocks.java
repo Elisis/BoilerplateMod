@@ -8,7 +8,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModBlocks {
 	
-	public static BlockOre copper_ore = new BlockOre("copper_ore").setCreativeTab(null);
+	public static BlockOre copper_ore = new BlockOre("copper_ore", "oreCopper");
 	
 	public static BlockCropCorn corn_crop = new BlockCropCorn();
 	
